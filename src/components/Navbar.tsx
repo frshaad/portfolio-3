@@ -1,23 +1,30 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-type Props = {}
-const Navbar = (props: Props) => {
+type PagesNameTypes = 'home' | 'about' | 'projects' | 'contact'
+const PAGES: PagesNameTypes[] = ['home', 'about', 'projects', 'contact']
+
+const Navbar = () => {
+  const [selectedPage, setSelectedPage] = useState<PagesNameTypes>('home')
+
   return (
-    <nav className='flex items-center justify-between'>
-      <h2 className='text-[22px] font-bold'>Arlene Rey</h2>
+    <nav className='flex items-center justify-between py-8 dark:text-veryLightGrey'>
+      <Link to='/' className='text-[22px] font-bold'>
+        Arlene Rey
+      </Link>
       <div className='flex items-center justify-between gap-10'>
-        <Link className='text-base font-medium' to='/'>
-          Home
-        </Link>
-        <Link className='text-base font-medium' to='/about'>
-          About
-        </Link>
-        <Link className='text-base font-medium' to='/projects'>
-          Projects
-        </Link>
-        <Link className='text-base font-medium' to='/contact'>
-          Contact
-        </Link>
+        {PAGES.map((page, index) => (
+          <Link
+            key={index}
+            className={`text-base font-medium transition duration-200 ${
+              selectedPage === page ? 'font-bold text-yellow' : ''
+            }`}
+            onClick={() => setSelectedPage(page)}
+            to={`/${page === 'home' ? '' : page}`}
+          >
+            <span className='capitalize'>{page}</span>
+          </Link>
+        ))}
       </div>
     </nav>
   )

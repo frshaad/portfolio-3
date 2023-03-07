@@ -43,10 +43,14 @@ body,
   font-family: 'Poppins', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   @apply bg-veryLightGrey dark:bg-black;
 }
 
 #root {
-  @apply mx-auto w-5/6 max-w-6xl;
+  @apply mx-auto w-3/4 max-w-6xl;
 }
