@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className='flex items-center justify-between py-8 dark:text-veryLightGrey'>
       <Link to='/' className='text-[22px] font-bold'>
-        Arlene Rey
+        Ariene Rey
       </Link>
       <div className='flex items-center justify-between gap-10'>
         {PAGES.map((page, index) => (

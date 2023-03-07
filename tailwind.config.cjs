@@ -27,6 +27,11 @@ module.exports = {
         30: '10px',
         45: '10px',
       },
+      content: {
+        'showcase-line-vector': 'url("/assets/line-vector.svg")',
+        circle: 'url("/assets/circle.svg")',
+        'bullet-points': 'url("/assets/bullet-points.svg")',
+      },
     },
   },
   plugins: [],

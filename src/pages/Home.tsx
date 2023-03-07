@@ -1,5 +1,11 @@
+import { Showcase } from '@/components/home'
+
 type Props = {}
 const Home = (props: Props) => {
-  return <div>Home</div>
+  return (
+    <>
+      <Showcase />
+    </>
+  )
 }
 export default Home
