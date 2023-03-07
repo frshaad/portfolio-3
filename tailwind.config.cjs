@@ -24,8 +24,8 @@ module.exports = {
         10: '10px',
         20: '20px',
         25: '25px',
-        30: '10px',
-        45: '10px',
+        30: '30px',
+        45: '45px',
       },
       content: {
         'showcase-line-vector': 'url("/assets/line-vector.svg")',

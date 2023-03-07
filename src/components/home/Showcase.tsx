@@ -4,14 +4,14 @@ import { HiDownload } from 'react-icons/hi'
 type Props = {}
 const Showcase = (props: Props) => {
   return (
-    <section className='flex items-center justify-between py-12'>
+    <section className='mt-10 flex items-center justify-between gap-6 py-12'>
       <article>
         <p className='heading-4 text-darkGrey'>Hey!</p>
-        <h1 className='heading-1 relative mt-4 text-veryDarkGrey after:relative after:left-24 after:content-showcase-line-vector'>
+        <h1 className='heading-1 relative mt-4 text-veryDarkGrey after:absolute after:left-24 after:-bottom-12 after:content-showcase-line-vector'>
           I'm <span className='text-yellow'>Ariene Rey</span>.<br />
           an UI/UX Designer.
         </h1>
-        <p className='font-regular mt-4 text-lg leading-[30px] text-veryDarkGrey'>
+        <p className='font-regular mt-20 text-lg leading-[30px] text-veryDarkGrey'>
           UX Designer based in Jakarta, Indonesia.
           <br /> I am designing with a minimal and beautiful design in mind.
         </p>
@@ -49,7 +49,7 @@ const Showcase = (props: Props) => {
         </div>
       </article>
 
-      <article className='flex items-center'>
+      <article className='hidden items-center xl:flex'>
         <div className='relative before:absolute before:-left-7 before:-top-10 before:z-0 before:w-full before:scale-95 before:content-circle after:absolute after:-left-8 after:-bottom-12 after:content-bullet-points'>
           <img
             src='/assets/image.png'
