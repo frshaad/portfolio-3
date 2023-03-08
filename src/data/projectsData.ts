@@ -1,0 +1,68 @@
+const projectsData = [
+  {
+    id: 1,
+    name: 'Minify - Web Design',
+    pic: '/assets/project1.png',
+    client: 'John Doe',
+    year: 2019,
+    category: 'web design',
+  },
+  {
+    id: 2,
+    name: 'Ant - Personal Portofolio',
+    pic: '/assets/project2.png',
+    client: 'Kathryn Murphy',
+    year: 2020,
+    category: 'web design',
+  },
+  {
+    id: 3,
+    name: 'Lumy - Dashboard UI Kit',
+    pic: '/assets/project3.png',
+    client: 'John Doe',
+    year: 2021,
+    category: 'web design',
+  },
+  {
+    id: 4,
+    name: 'Keeper - Soccer Site',
+    pic: '/assets/project4.png',
+    client: 'Kathryn Murphy',
+    year: 2022,
+    category: 'web design',
+  },
+  {
+    id: 5,
+    name: 'Mobile - Dashboard UI Kit',
+    pic: '/assets/project3.png',
+    client: 'John Doe',
+    year: 2021,
+    category: 'mobile app design',
+  },
+  {
+    id: 6,
+    name: 'Weather App',
+    pic: '/assets/project1.png',
+    client: 'Kathryn Murphy',
+    year: 2019,
+    category: 'mobile app design',
+  },
+  {
+    id: 7,
+    name: 'Bing - Personal Portofolio',
+    pic: '/assets/project2.png',
+    client: 'John Doe',
+    year: 2022,
+    category: 'freebies',
+  },
+  {
+    id: 8,
+    name: 'frshaad - Dashboard UI Kit',
+    pic: '/assets/project4.png',
+    client: 'Kathryn Murphy',
+    year: 2021,
+    category: 'freebies',
+  },
+]
+
+export default projectsData

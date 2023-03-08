@@ -1,4 +1,12 @@
-import { AboutMe, RecentProjects, Showcase } from '@/components/home'
+import {
+  AboutMe,
+  Clients,
+  ContactBanner,
+  Reasons,
+  RecentProjects,
+  Showcase,
+  Testimonials,
+} from '@/components/home'
 
 type Props = {}
 const Home = (props: Props) => {
@@ -7,6 +15,10 @@ const Home = (props: Props) => {
       <Showcase />
       <AboutMe />
       <RecentProjects />
+      <Reasons />
+      <ContactBanner />
+      <Clients />
+      <Testimonials />
     </>
   )
 }
