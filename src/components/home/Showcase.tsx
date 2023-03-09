@@ -6,19 +6,19 @@ const Showcase = (props: Props) => {
   return (
     <section className='mx-auto mt-10 flex w-3/4 max-w-6xl items-center justify-between gap-6 py-12'>
       <article>
-        <p className='heading-4 text-darkGrey'>Hey!</p>
-        <h1 className='heading-1 relative mt-4 text-veryDarkGrey after:absolute after:left-24 after:-bottom-12 after:content-showcase-line-vector'>
+        <p className='heading-4 text-darkGrey dark:text-lightGrey'>Hey!</p>
+        <h1 className='heading-1 relative mt-4 text-veryDarkGrey after:absolute after:left-24 after:-bottom-12 after:content-showcase-line-vector dark:text-white'>
           I'm <span className='text-yellow'>Ariene Rey</span>.<br />
           an UI/UX Designer.
         </h1>
-        <p className='font-regular mt-20 text-lg leading-[30px] text-veryDarkGrey'>
+        <p className='font-regular mt-20 text-lg leading-[30px] text-veryDarkGrey dark:text-veryLightGrey'>
           UX Designer based in Jakarta, Indonesia.
           <br /> I am designing with a minimal and beautiful design in mind.
         </p>
 
-        <div className='mt-8 flex items-center gap-7'>
-          <p className='body-text text-darkGrey'>Follow Me</p>
-          <div className='text-grey flex items-center justify-between gap-7 text-veryDarkGrey'>
+        <div className='mt-8 flex items-center gap-7 text-veryDarkGrey dark:text-lightGrey'>
+          <p className='body-text'>Follow Me</p>
+          <div className='flex items-center justify-between gap-7 '>
             <a href='https://instagram.com'>
               <BsInstagram size={22} />
             </a>
@@ -41,7 +41,7 @@ const Showcase = (props: Props) => {
           </a>
           <a
             href='#'
-            className='button-outline flex items-center gap-3 px-6 py-3 text-black'
+            className='button-outline flex items-center gap-3 px-6 py-3 text-black dark:text-veryLightGrey'
           >
             <HiDownload size={20} />
             Download CV

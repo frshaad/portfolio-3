@@ -11,8 +11,12 @@ const ReasonCard = ({ pic, title, desc }: ReasonCardProps) => (
     <div className='flex items-center justify-center'>
       <img src={pic} alt={title} />
     </div>
-    <h4 className='heading-4 mt-7 text-center text-veryDarkGrey'>{title}</h4>
-    <p className='body-text mt-2 text-center text-darkGrey'>{desc}</p>
+    <h4 className='heading-4 mt-7 text-center text-veryDarkGrey dark:text-veryLightGrey'>
+      {title}
+    </h4>
+    <p className='body-text mt-2 text-center text-darkGrey dark:text-lightGrey'>
+      {desc}
+    </p>
   </div>
 )
 

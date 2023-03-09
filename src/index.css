@@ -7,10 +7,10 @@
 @layer components {
   /* ? Buttons */
   .button-filled {
-    @apply rounded-10 border-2 border-yellow  bg-yellow py-4 px-[45px] text-base font-bold text-white dark:bg-darkOrange;
+    @apply rounded-10 border-2 border-yellow  bg-yellow py-4 px-[45px] text-base font-bold text-white dark:border-darkOrange dark:bg-darkOrange;
   }
   .button-outline {
-    @apply rounded-10 border-2 border-yellow bg-transparent py-4 px-[60px] text-base font-bold text-darkGrey dark:border-darkOrange dark:text-white;
+    @apply rounded-10 border-2 border-yellow bg-transparent py-4 px-[60px] text-base font-bold text-darkGrey dark:border-darkOrange dark:text-veryLightGrey;
   }
 
   /* ? Typography */
@@ -61,6 +61,12 @@ body {
   width: 30px;
   border-radius: 5px;
   transition: all 0.3s;
+}
+
+@media (prefers-color-scheme: dark) {
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #eebf63;
+  }
 }
 
 .swiper-pagination-bullet {

@@ -3,7 +3,7 @@ import { BsEnvelope } from 'react-icons/bs'
 const ContactBanner = () => {
   return (
     <section className='mx-auto mt-20 w-3/4 max-w-6xl'>
-      <article className='flex items-center justify-between rounded-25 bg-yellow px-20 py-16'>
+      <article className='flex items-center justify-between rounded-25 bg-yellow px-20 py-16 dark:bg-darkOrange'>
         <h2 className='heading-1 text-white'>
           Interested
           <br /> working

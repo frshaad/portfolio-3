@@ -8,8 +8,8 @@ import TestimonialCard from './TestimonialCard'
 
 const Testimonials = () => {
   return (
-    <section className='mt-24 bg-cyan py-12'>
-      <h2 className='fot-semibold text-center text-5xl leading-[60px] text-white'>
+    <section className='mt-24 bg-cyan py-12 dark:bg-darkGreen'>
+      <h2 className='fot-semibold text-center text-5xl leading-[60px] text-white dark:text-veryLightGrey'>
         We Are Loved By Users
         <br /> And Clients Worldwide
       </h2>

@@ -13,13 +13,18 @@ const ProjectBanner = ({ name, pic }: ProjectDataProps) => (
       <img src={pic} className='rounded-25' />
     </div>
     <div className='mt-5'>
-      <p className='text-2xl font-semibold text-black'>{name}</p>
+      <p className='text-2xl font-semibold text-black dark:text-veryLightGrey'>
+        {name}
+      </p>
       <div className='mt-2 flex items-center gap-12'>
-        <Link to='/' className='flex items-center gap-3 text-[#151517]'>
+        <Link
+          to='/'
+          className='flex items-center gap-3 text-[#151517] dark:text-veryLightGrey'
+        >
           <BsLayersFill size={16} />
           <span className='text-base font-medium'>View Study Case</span>
         </Link>
-        <a href='#' className='flex items-center gap-3'>
+        <a href='#' className='flex items-center gap-3 dark:text-veryLightGrey'>
           <BiShow size={16} />
           <span className='text-base font-medium'>Live Preview</span>
         </a>
