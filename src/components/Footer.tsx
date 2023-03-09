@@ -11,7 +11,7 @@ const backToTop = () => {
 }
 
 const Footer = () => (
-  <footer className='mx-auto flex w-3/4 max-w-6xl items-center justify-between py-16 text-veryDarkGrey dark:text-veryLightGrey'>
+  <footer className='mx-auto flex w-5/6 flex-col items-center justify-between gap-10 py-8 text-veryDarkGrey dark:text-veryLightGrey md:flex-row md:gap-0 md:py-16 lg:w-3/4'>
     <h3 className='text-[22px] font-bold'>Let's Connect</h3>
     <div className='text-grey flex items-center justify-between gap-6'>
       <a href='https://instagram.com'>

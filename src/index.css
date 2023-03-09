@@ -15,16 +15,16 @@
 
   /* ? Typography */
   .heading-1 {
-    @apply text-5xl font-semibold leading-[62px] text-black dark:text-white;
+    @apply text-4xl font-semibold leading-normal text-black dark:text-white md:text-5xl md:leading-[62px];
   }
   .heading-2 {
-    @apply text-4xl font-semibold leading-[46px] text-black dark:text-white;
+    @apply text-3xl font-semibold leading-[46px] text-black dark:text-white md:text-4xl;
   }
   .heading-3 {
-    @apply text-3xl font-medium leading-[54px] text-black dark:text-white;
+    @apply text-2xl font-medium leading-[54px] text-black dark:text-white md:text-3xl;
   }
   .heading-4 {
-    @apply text-2xl font-medium leading-[36px] text-black dark:text-white;
+    @apply text-xl font-medium leading-[36px] text-black dark:text-white md:text-2xl;
   }
   .body-text {
     @apply text-lg font-normal leading-[30px] text-black dark:text-white;
@@ -51,11 +51,7 @@ body {
   @apply bg-veryLightGrey dark:bg-black;
 }
 
-/* #root {
-  @apply mx-auto w-3/4 max-w-6xl;
-} */
-
-/* Swiper */
+/* ? Swiper */
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: #505050;
   width: 30px;

@@ -1,17 +1,16 @@
 import { BsDribbble, BsEnvelope, BsInstagram, BsYoutube } from 'react-icons/bs'
 import { HiDownload } from 'react-icons/hi'
 
-type Props = {}
-const Showcase = (props: Props) => {
+const Showcase = () => {
   return (
-    <section className='mx-auto mt-10 flex w-3/4 max-w-6xl items-center justify-between gap-6 py-12'>
+    <section className='mx-auto flex w-5/6 max-w-6xl items-center justify-between gap-6 py-12 md:mt-10 lg:w-3/4'>
       <article>
         <p className='heading-4 text-darkGrey dark:text-lightGrey'>Hey!</p>
-        <h1 className='heading-1 relative mt-4 text-veryDarkGrey after:absolute after:left-24 after:-bottom-12 after:content-showcase-line-vector dark:text-white'>
+        <h1 className='heading-1 relative mt-4 text-veryDarkGrey after:absolute after:-bottom-12 after:hidden after:scale-75 after:content-showcase-line-vector dark:text-white md:after:left-24 md:after:block md:after:scale-100'>
           I'm <span className='text-yellow'>Ariene Rey</span>.<br />
           an UI/UX Designer.
         </h1>
-        <p className='font-regular mt-20 text-lg leading-[30px] text-veryDarkGrey dark:text-veryLightGrey'>
+        <p className='font-regular mt-10 text-lg leading-[30px] text-veryDarkGrey dark:text-veryLightGrey md:mt-20'>
           UX Designer based in Jakarta, Indonesia.
           <br /> I am designing with a minimal and beautiful design in mind.
         </p>
@@ -31,7 +30,7 @@ const Showcase = (props: Props) => {
           </div>
         </div>
 
-        <div className='mt-10 flex items-center gap-7'>
+        <div className='mt-14 flex flex-col items-start gap-4 md:mt-10 md:flex-row md:items-center md:gap-7'>
           <a
             href='mailto:abc@xyz.com'
             className='button-filled flex items-center gap-3 px-6 py-3'

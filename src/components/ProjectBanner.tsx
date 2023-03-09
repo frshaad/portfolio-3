@@ -8,15 +8,15 @@ type ProjectDataProps = {
 }
 
 const ProjectBanner = ({ name, pic }: ProjectDataProps) => (
-  <div>
+  <div className='mt-5 md:mt-0'>
     <div>
       <img src={pic} className='rounded-25' />
     </div>
     <div className='mt-5'>
-      <p className='text-2xl font-semibold text-black dark:text-veryLightGrey'>
+      <p className='text-xl font-semibold text-black dark:text-veryLightGrey md:text-2xl'>
         {name}
       </p>
-      <div className='mt-2 flex items-center gap-12'>
+      <div className='mt-4 flex flex-col md:mt-2 md:flex-row md:items-center md:gap-12'>
         <Link
           to='/'
           className='flex items-center gap-3 text-[#151517] dark:text-veryLightGrey'
@@ -24,7 +24,10 @@ const ProjectBanner = ({ name, pic }: ProjectDataProps) => (
           <BsLayersFill size={16} />
           <span className='text-base font-medium'>View Study Case</span>
         </Link>
-        <a href='#' className='flex items-center gap-3 dark:text-veryLightGrey'>
+        <a
+          href='#'
+          className='mt-2 flex items-center gap-3 dark:text-veryLightGrey md:mt-0'
+        >
           <BiShow size={16} />
           <span className='text-base font-medium'>Live Preview</span>
         </a>

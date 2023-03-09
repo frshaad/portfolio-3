@@ -2,14 +2,14 @@ import { BsEnvelope } from 'react-icons/bs'
 
 const ContactBanner = () => {
   return (
-    <section className='mx-auto mt-20 w-3/4 max-w-6xl'>
-      <article className='flex items-center justify-between rounded-25 bg-yellow px-20 py-16 dark:bg-darkOrange'>
+    <section className='mx-auto mt-20 w-5/6 max-w-6xl lg:w-3/4'>
+      <article className='flex flex-col items-center justify-between rounded-25 bg-yellow p-8 dark:bg-darkOrange md:flex-row md:py-16 md:px-16 lg:px-20'>
         <h2 className='heading-1 text-white'>
           Interested
           <br /> working
           <br /> with me?
         </h2>
-        <div className='flex items-center justify-between gap-12'>
+        <div className='mt-14 flex flex-col items-center justify-between gap-6 md:mt-0 xl:flex-row xl:gap-12'>
           <button className='flex items-center justify-between gap-4 rounded-10 bg-white py-5 px-6 text-2xl font-semibold text-veryDarkGrey'>
             <BsEnvelope size={24} strokeWidth={0.5} />
             Email Me
