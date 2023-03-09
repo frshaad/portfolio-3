@@ -1,6 +1,6 @@
 const Clients = () => {
   return (
-    <section className='mt-20'>
+    <section className='mx-auto mt-20 w-3/4 max-w-6xl'>
       <img
         src='/assets/clientsLogos.svg'
         className='mx-auto'

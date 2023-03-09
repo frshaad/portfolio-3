@@ -2,7 +2,7 @@ import { BsStarFill, BsStarHalf } from 'react-icons/bs'
 
 const AboutMe = () => {
   return (
-    <section className='mt-20 flex items-center justify-between gap-6 py-12'>
+    <section className='mx-auto mt-20 flex w-3/4 max-w-6xl items-center justify-between gap-6 py-12'>
       <article className='flex w-full items-start justify-between gap-14 rounded-45 bg-[#e9e9e9] p-16'>
         <div className=''>
           <img

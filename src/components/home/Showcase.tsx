@@ -4,7 +4,7 @@ import { HiDownload } from 'react-icons/hi'
 type Props = {}
 const Showcase = (props: Props) => {
   return (
-    <section className='mt-10 flex items-center justify-between gap-6 py-12'>
+    <section className='mx-auto mt-10 flex w-3/4 max-w-6xl items-center justify-between gap-6 py-12'>
       <article>
         <p className='heading-4 text-darkGrey'>Hey!</p>
         <h1 className='heading-1 relative mt-4 text-veryDarkGrey after:absolute after:left-24 after:-bottom-12 after:content-showcase-line-vector'>

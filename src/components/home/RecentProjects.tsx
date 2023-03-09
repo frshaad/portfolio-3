@@ -2,7 +2,7 @@ import { ProjectBanner } from '@/components'
 import { projectsData } from '@/data'
 
 const RecentProjects = () => (
-  <section className='mt-16'>
+  <section className='mx-auto mt-16 w-3/4 max-w-6xl'>
     <div className='flex items-center justify-between'>
       <h3 className='heading-1 text-[#151517]'>Recent Projects</h3>
       <button className='button-filled px-8 py-4'>View More</button>

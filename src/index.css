@@ -51,6 +51,19 @@ body {
   @apply bg-veryLightGrey dark:bg-black;
 }
 
-#root {
+/* #root {
   @apply mx-auto w-3/4 max-w-6xl;
+} */
+
+/* Swiper */
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #505050;
+  width: 30px;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.swiper-pagination-bullet {
+  background-color: #fff;
+  opacity: 1;
 }

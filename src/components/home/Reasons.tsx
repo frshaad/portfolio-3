@@ -18,7 +18,7 @@ const ReasonCard = ({ pic, title, desc }: ReasonCardProps) => (
 
 const Reasons = () => {
   return (
-    <section className='mt-14 py-8'>
+    <section className='mx-auto mt-14 w-3/4 max-w-6xl py-8'>
       <h2 className='heading-1 text-center'>Why Hire Me?</h2>
       <article className='mx-auto flex w-full items-center justify-between gap-12'>
         {reasons.map((reason) => (

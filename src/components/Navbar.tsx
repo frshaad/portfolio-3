@@ -8,7 +8,7 @@ const Navbar = () => {
   const [selectedPage, setSelectedPage] = useState<PagesNameTypes>('home')
 
   return (
-    <nav className='flex items-center justify-between py-8 dark:text-veryLightGrey'>
+    <nav className='mx-auto flex w-3/4 max-w-6xl items-center justify-between py-8 dark:text-veryLightGrey'>
       <Link to='/' className='text-[22px] font-bold'>
         Ariene Rey
       </Link>
