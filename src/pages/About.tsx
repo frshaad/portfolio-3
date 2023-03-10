@@ -1,9 +1,11 @@
-import { Article, Header } from '@/components/about'
+import { Article, Header, OurTeam, SuggestionForm } from '@/components/about'
 
 const About = () => (
   <>
     <Header />
     <Article />
+    <OurTeam />
+    <SuggestionForm />
   </>
 )
 

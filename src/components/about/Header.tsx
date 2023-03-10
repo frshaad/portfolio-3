@@ -1,7 +1,7 @@
 import Signature from './Signature'
 
 const Header = () => (
-  <section className='mx-auto flex w-5/6 max-w-6xl flex-col items-center justify-between py-10 text-veryDarkGrey dark:text-veryLightGrey xl:w-3/4 xl:flex-row xl:py-24'>
+  <section className='mx-auto flex w-5/6 max-w-6xl flex-col items-center justify-between py-12 text-veryDarkGrey dark:text-veryLightGrey xl:w-3/4 xl:flex-row xl:py-24'>
     <div>
       <img src='/assets/about-pp1.png' alt='Ariene Rey picture' />
     </div>
