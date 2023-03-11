@@ -6,7 +6,7 @@ import {
   RecentProjects,
   Showcase,
   Testimonials,
-} from '@/components/home'
+} from '@/components/home';
 
 const Home = () => (
   <>
@@ -18,6 +18,6 @@ const Home = () => (
     <Clients />
     <Testimonials />
   </>
-)
+);
 
-export default Home
+export default Home;

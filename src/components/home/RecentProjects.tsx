@@ -1,5 +1,5 @@
-import { ProjectBanner } from '@/components'
-import { projectsData } from '@/data'
+import { ProjectBanner } from '@/components';
+import { projectsData } from '@/data';
 
 const RecentProjects = () => (
   <section className='mx-auto mt-16 w-5/6 max-w-6xl lg:w-3/4'>
@@ -18,6 +18,6 @@ const RecentProjects = () => (
       ))}
     </article>
   </section>
-)
+);
 
-export default RecentProjects
+export default RecentProjects;

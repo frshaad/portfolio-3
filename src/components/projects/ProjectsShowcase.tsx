@@ -1,21 +1,21 @@
-import { projectsData } from '@/data'
-import { useState } from 'react'
-import ProjectBanner from '../ProjectBanner'
+import { projectsData } from '@/data';
+import { useState } from 'react';
+import ProjectBanner from '../ProjectBanner';
 
-type ProjectsCategory = 'web design' | 'mobile app design' | 'freebies'
+type ProjectsCategory = 'web design' | 'mobile app design' | 'freebies';
 const CATEGORIES: ProjectsCategory[] = [
   'web design',
   'mobile app design',
   'freebies',
-]
+];
 
 const ProjectsShowcase = () => {
   const [activeCategory, setActiveCategory] =
-    useState<ProjectsCategory>('web design')
+    useState<ProjectsCategory>('web design');
 
   const handleCategoryFilter = (selectedCategory: ProjectsCategory) => {
-    setActiveCategory(selectedCategory)
-  }
+    setActiveCategory(selectedCategory);
+  };
 
   return (
     <section className='mx-auto flex w-5/6 max-w-6xl flex-col justify-between py-12 lg:w-3/4'>
@@ -47,6 +47,6 @@ const ProjectsShowcase = () => {
           ))}
       </article>
     </section>
-  )
-}
-export default ProjectsShowcase
+  );
+};
+export default ProjectsShowcase;

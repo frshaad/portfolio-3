@@ -1,4 +1,4 @@
-import { Article, Header, OurTeam, SuggestionForm } from '@/components/about'
+import { Article, Header, OurTeam, SuggestionForm } from '@/components/about';
 
 const About = () => (
   <>
@@ -7,6 +7,6 @@ const About = () => (
     <OurTeam />
     <SuggestionForm />
   </>
-)
+);
 
-export default About
+export default About;

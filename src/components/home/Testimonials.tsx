@@ -1,10 +1,10 @@
-import { testimonialsData } from '@/data'
-import { TestimonialDataType } from '@/types'
-import { Autoplay, Pagination } from 'swiper'
-import 'swiper/css'
-import 'swiper/css/pagination'
-import { Swiper, SwiperSlide } from 'swiper/react'
-import TestimonialCard from './TestimonialCard'
+import { testimonialsData } from '@/data';
+import { TestimonialDataType } from '@/types';
+import { Autoplay, Pagination } from 'swiper';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import TestimonialCard from './TestimonialCard';
 
 const Testimonials = () => {
   return (
@@ -58,7 +58,7 @@ const Testimonials = () => {
         </Swiper>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Testimonials
+export default Testimonials;

@@ -28,6 +28,6 @@ const Signature = () => (
       />
     </defs>
   </svg>
-)
+);
 
-export default Signature
+export default Signature;

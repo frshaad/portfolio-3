@@ -1,7 +1,7 @@
-import { Footer, Navbar } from '@/components'
-import { Outlet } from 'react-router-dom'
+import { Footer, Navbar } from '@/components';
+import { Outlet } from 'react-router-dom';
 
-type Props = {}
+type Props = {};
 const Layout = (props: Props) => {
   return (
     <>
@@ -11,6 +11,6 @@ const Layout = (props: Props) => {
       </main>
       <Footer />
     </>
-  )
-}
-export default Layout
+  );
+};
+export default Layout;

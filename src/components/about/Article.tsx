@@ -1,7 +1,7 @@
-import { useMediaQuery } from '@/hooks'
+import { useMediaQuery } from '@/hooks';
 
 const Article = () => {
-  const isAboveSmallScreens = useMediaQuery('(min-width: 768px)')
+  const isAboveSmallScreens = useMediaQuery('(min-width: 768px)');
 
   return (
     <section className='mx-auto flex w-5/6 max-w-6xl flex-col items-center justify-between py-12 text-veryDarkGrey lg:w-3/4'>
@@ -47,7 +47,7 @@ const Article = () => {
         ></iframe>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Article
+export default Article;

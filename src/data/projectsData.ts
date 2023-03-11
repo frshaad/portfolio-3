@@ -63,6 +63,6 @@ const projectsData = [
     year: 2021,
     category: 'freebies',
   },
-]
+];
 
-export default projectsData
+export default projectsData;

@@ -1,5 +1,5 @@
-import { TestimonialDataType } from '@/types'
-import { BsStarFill, BsStarHalf } from 'react-icons/bs'
+import { TestimonialDataType } from '@/types';
+import { BsStarFill, BsStarHalf } from 'react-icons/bs';
 
 const TestimonialCard = ({ job, name, opinion, pic }: TestimonialDataType) => {
   return (
@@ -28,6 +28,6 @@ const TestimonialCard = ({ job, name, opinion, pic }: TestimonialDataType) => {
         </div>
       </div>
     </div>
-  )
-}
-export default TestimonialCard
+  );
+};
+export default TestimonialCard;

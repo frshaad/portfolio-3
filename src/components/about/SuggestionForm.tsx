@@ -43,6 +43,6 @@ const SuggestionForm = () => (
       </div>
     </article>
   </section>
-)
+);
 
-export default SuggestionForm
+export default SuggestionForm;

@@ -1,4 +1,4 @@
-import Signature from './Signature'
+import Signature from './Signature';
 
 const Header = () => (
   <section className='mx-auto flex w-5/6 max-w-6xl flex-col items-center justify-between py-12 text-veryDarkGrey dark:text-veryLightGrey xl:w-3/4 xl:flex-row xl:py-24'>
@@ -28,5 +28,5 @@ const Header = () => (
       </div>
     </div>
   </section>
-)
-export default Header
+);
+export default Header;

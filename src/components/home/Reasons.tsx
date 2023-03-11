@@ -1,10 +1,10 @@
-import reasons from '@/data/reasonsData'
+import reasons from '@/data/reasonsData';
 
 type ReasonCardProps = {
-  pic: string
-  title: string
-  desc: string
-}
+  pic: string;
+  title: string;
+  desc: string;
+};
 
 const ReasonCard = ({ pic, title, desc }: ReasonCardProps) => (
   <div className='mt-12 md:w-1/2 xl:w-full'>
@@ -18,7 +18,7 @@ const ReasonCard = ({ pic, title, desc }: ReasonCardProps) => (
       {desc}
     </p>
   </div>
-)
+);
 
 const Reasons = () => {
   return (
@@ -35,6 +35,6 @@ const Reasons = () => {
         ))}
       </article>
     </section>
-  )
-}
-export default Reasons
+  );
+};
+export default Reasons;

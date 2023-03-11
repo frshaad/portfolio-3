@@ -1,5 +1,5 @@
-import { About, Contact, Home, Layout, Project, Projects } from '@/pages'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { About, Contact, Home, Layout, Projects } from '@/pages';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 const App = () => (
   <BrowserRouter>
@@ -12,6 +12,6 @@ const App = () => (
       </Route>
     </Routes>
   </BrowserRouter>
-)
+);
 
-export default App
+export default App;

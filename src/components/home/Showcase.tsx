@@ -1,5 +1,5 @@
-import { BsDribbble, BsEnvelope, BsInstagram, BsYoutube } from 'react-icons/bs'
-import { HiDownload } from 'react-icons/hi'
+import { BsDribbble, BsEnvelope, BsInstagram, BsYoutube } from 'react-icons/bs';
+import { HiDownload } from 'react-icons/hi';
 
 const Showcase = () => {
   return (
@@ -58,6 +58,6 @@ const Showcase = () => {
         </div>
       </article>
     </section>
-  )
-}
-export default Showcase
+  );
+};
+export default Showcase;

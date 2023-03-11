@@ -23,6 +23,6 @@ const reasons = [
     title: 'Client’s Favourite',
     desc: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. ',
   },
-]
+];
 
-export default reasons
+export default reasons;

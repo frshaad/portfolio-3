@@ -1,24 +1,24 @@
-import { useMediaQuery } from '@/hooks'
-import { useState } from 'react'
-import { BsList, BsXLg } from 'react-icons/bs'
-import { Link } from 'react-router-dom'
+import { useMediaQuery } from '@/hooks';
+import { useState } from 'react';
+import { BsList, BsXLg } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
-type PagesNameTypes = 'home' | 'about' | 'projects' | 'contact'
-const PAGES: PagesNameTypes[] = ['home', 'about', 'projects', 'contact']
+type PagesNameTypes = 'home' | 'about' | 'projects' | 'contact';
+const PAGES: PagesNameTypes[] = ['home', 'about', 'projects', 'contact'];
 
 const Navbar = () => {
-  const [selectedPage, setSelectedPage] = useState<PagesNameTypes>('home')
-  const [isMenuToggled, setIsMenuToggled] = useState<boolean>(false)
-  const isAboveSmallScreens = useMediaQuery('(min-width: 768px)')
+  const [selectedPage, setSelectedPage] = useState<PagesNameTypes>('home');
+  const [isMenuToggled, setIsMenuToggled] = useState<boolean>(false);
+  const isAboveSmallScreens = useMediaQuery('(min-width: 768px)');
 
   const handleCloseMobileMenu = () => {
-    setIsMenuToggled(!isMenuToggled)
-  }
+    setIsMenuToggled(!isMenuToggled);
+  };
 
   const handleSelectPage = (page: PagesNameTypes) => {
-    setSelectedPage(page)
-    setIsMenuToggled(false)
-  }
+    setSelectedPage(page);
+    setIsMenuToggled(false);
+  };
 
   return (
     <nav className='mx-auto flex w-5/6 max-w-6xl items-center justify-between py-8 dark:text-veryLightGrey lg:w-3/4'>
@@ -70,6 +70,6 @@ const Navbar = () => {
         </div>
       )}
     </nav>
-  )
-}
-export default Navbar
+  );
+};
+export default Navbar;

@@ -1,11 +1,11 @@
-import { BiShow } from 'react-icons/bi'
-import { BsLayersFill } from 'react-icons/bs'
-import { Link } from 'react-router-dom'
+import { BiShow } from 'react-icons/bi';
+import { BsLayersFill } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 type ProjectDataProps = {
-  name: string
-  pic: string
-}
+  name: string;
+  pic: string;
+};
 
 const ProjectBanner = ({ name, pic }: ProjectDataProps) => (
   <div className='xl:max-w-lg'>
@@ -34,6 +34,6 @@ const ProjectBanner = ({ name, pic }: ProjectDataProps) => (
       </div>
     </div>
   </div>
-)
+);
 
-export default ProjectBanner
+export default ProjectBanner;

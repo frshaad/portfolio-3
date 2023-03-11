@@ -1,8 +1,8 @@
-import { BsEnvelope } from 'react-icons/bs'
+import { BsEnvelope } from 'react-icons/bs';
 
 type Props = {
-  moreProject: boolean
-}
+  moreProject?: boolean;
+};
 
 const ContactBanner = ({ moreProject }: Props) => {
   return (
@@ -28,7 +28,7 @@ const ContactBanner = ({ moreProject }: Props) => {
         </div>
       </article>
     </section>
-  )
-}
+  );
+};
 
-export default ContactBanner
+export default ContactBanner;

@@ -7,6 +7,6 @@ const Clients = () => {
         alt='clients logos'
       />
     </section>
-  )
-}
-export default Clients
+  );
+};
+export default Clients;

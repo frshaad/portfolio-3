@@ -1,4 +1,4 @@
-import { TestimonialDataType } from '@/types'
+import { TestimonialDataType } from '@/types';
 
 const testimonialData: TestimonialDataType[] = [
   {
@@ -46,6 +46,6 @@ const testimonialData: TestimonialDataType[] = [
     opinion:
       'It provides an amazing platform for constant conversations and direct feedback between managers and direct reports.',
   },
-]
+];
 
-export default testimonialData
+export default testimonialData;

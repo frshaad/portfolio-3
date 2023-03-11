@@ -3,12 +3,12 @@ import {
   BsDribbble,
   BsInstagram,
   BsYoutube,
-} from 'react-icons/bs'
+} from 'react-icons/bs';
 
 const backToTop = () => {
-  document.body.scrollTop = 0 // For Safari
-  document.documentElement.scrollTop = 0 // For Chrome, Firefox, IE and Opera
-}
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+};
 
 const Footer = () => (
   <footer className='mx-auto flex w-5/6 flex-col items-center justify-between gap-10 py-8 text-veryDarkGrey dark:text-veryLightGrey md:flex-row md:gap-0 md:py-16 lg:w-3/4'>
@@ -29,6 +29,6 @@ const Footer = () => (
       <BsArrowUpShort size={24} className='dark:text-cyan' />
     </button>
   </footer>
-)
+);
 
-export default Footer
+export default Footer;

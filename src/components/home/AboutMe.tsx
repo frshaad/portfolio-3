@@ -1,4 +1,4 @@
-import { BsStarFill, BsStarHalf } from 'react-icons/bs'
+import { BsStarFill, BsStarHalf } from 'react-icons/bs';
 
 const AboutMe = () => {
   return (
@@ -52,6 +52,6 @@ const AboutMe = () => {
         </div>
       </article>
     </section>
-  )
-}
-export default AboutMe
+  );
+};
+export default AboutMe;

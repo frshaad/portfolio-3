@@ -1,9 +1,9 @@
 type TeamMemberProps = {
-  pic: string
-  name: string
-  role: string
-  id?: number
-}
+  pic: string;
+  name: string;
+  role: string;
+  id?: number;
+};
 
 const teamMembers: TeamMemberProps[] = [
   {
@@ -24,7 +24,7 @@ const teamMembers: TeamMemberProps[] = [
     name: 'Cody Fisher',
     role: 'Back End Developer',
   },
-]
+];
 
 const TeamMember = ({ pic, name, role }: TeamMemberProps): JSX.Element => (
   <div className='flex flex-col items-center'>
@@ -40,7 +40,7 @@ const TeamMember = ({ pic, name, role }: TeamMemberProps): JSX.Element => (
       {role}
     </p>
   </div>
-)
+);
 
 const OurTeam = () => (
   <section className='mx-auto flex w-5/6 max-w-6xl flex-col items-center justify-between border-t-[3px] border-lightGrey py-12 lg:w-3/4'>
@@ -53,6 +53,6 @@ const OurTeam = () => (
       ))}
     </article>
   </section>
-)
+);
 
-export default OurTeam
+export default OurTeam;
