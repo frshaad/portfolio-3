@@ -8,15 +8,15 @@ type ProjectDataProps = {
 }
 
 const ProjectBanner = ({ name, pic }: ProjectDataProps) => (
-  <div className='mt-5 md:mt-0'>
+  <div className='xl:max-w-lg'>
     <div>
       <img src={pic} className='rounded-25' />
     </div>
-    <div className='mt-5'>
+    <div className='mt-8'>
       <p className='text-xl font-semibold text-black dark:text-veryLightGrey md:text-2xl'>
         {name}
       </p>
-      <div className='mt-4 flex flex-col md:mt-2 md:flex-row md:items-center md:gap-12'>
+      <div className='mt-4 flex flex-col md:mt-4 md:flex-row md:items-center md:gap-12'>
         <Link
           to='/'
           className='flex items-center gap-3 text-[#151517] dark:text-veryLightGrey'

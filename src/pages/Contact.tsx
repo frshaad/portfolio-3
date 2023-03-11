@@ -1,5 +1,4 @@
-type Props = {}
-const Contact = (props: Props) => {
-  return <div>Contact</div>
-}
+import { SuggestionForm } from '@/components/about'
+
+const Contact = () => <SuggestionForm />
 export default Contact
